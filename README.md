@@ -5,6 +5,12 @@ Trains protocol is a uniform and totally-ordered broadcast protocol [Défago et 
 
 It is designed to be a throughput-efficient protocol, especially for short messages (100 bytes or lower) [Simatic, 2012].
 
+
+Purpose of this fork
+--------------------
+This project is forked from http://github.com/simatic/TrainsProtocol.
+It aims to simplify stateMachine.c
+
 Compilation of Trains protocol middleware
 -----------------------------------------
 make (with no target) generates the library, the unit and integration tests, 
@@ -34,7 +40,7 @@ export TRAINS_PORT=port to be used by application
 
 Known issues
 ------------
-See "Known issues" section in RELEASE-NOTES.txt
+See "Known issues" section in ./doc/RELEASE-NOTES.txt
 
 Bibliography
 ------------
